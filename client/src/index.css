@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f8fafc;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+h1 {
+  color: #1e293b;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  border-radius: 8px;
+  border: none;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.fixed {
+  position: fixed;
+  z-index: 50;
+}
